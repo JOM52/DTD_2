@@ -157,8 +157,8 @@ RADIO = {
     "GROUP_IDS": [1, 2, 3, 4, 5,],
 
     # Temporisations (CORRIGÉES pour fiabilité)
-    "POLL_PERIOD_MS": 800,      # 800ms (était 500ms - éviter saturation)
-    "REPLY_TIMEOUT_MS": 500,    # 500ms (était 250ms - GT38 peut être lent)
+    "POLL_PERIOD_MS": 1100,      # 800ms (était 500ms - éviter saturation)
+    "REPLY_TIMEOUT_MS": 1000,    # 500ms (était 250ms - GT38 peut être lent)
 
     # Retry configuration
     "RETRY": {
